@@ -1,0 +1,15 @@
+.tag {
+	@media (max-width: 500px) {
+		width: 4rem;
+	}
+	@media (max-width: 500px) {
+		width: 4rem;
+	}
+	@media (min-width: 501px) {
+		width: 4.5rem;
+	}
+	@media (min-width: 768px) {
+		width: 6.5rem;
+	}
+}
+// max-md:min-w-[4.5rem] min-w-[6.5rem]

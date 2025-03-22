@@ -1,0 +1,16 @@
+.link {
+	height: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+	&.active::after {
+		content: "";
+		width: 90%;
+		height: 0.375rem;
+		background-color: var(--primary);
+		position: absolute;
+		bottom: 0;
+		left: 5%;
+		border-radius: 0.4rem 0.4rem 0 0;
+	}
+}
