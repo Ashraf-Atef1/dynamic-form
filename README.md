@@ -6,6 +6,13 @@
 
 A dynamic form builder application featuring hierarchical dropdowns, real-time search, and nested property management. Built with Next.js and integrated with comprehensive testing.
 
+## Live Demo
+
+- Static page:
+  https://mazaady-kappa.vercel.app/home
+- Dynamic form:
+  https://mazaady-kappa.vercel.app/task
+
 ## Features
 
 - 🎯 **Hierarchical Category Selection**
@@ -57,6 +64,8 @@ pnpm dev
 # or
 bun dev
 ````
+
+- add .env file with: MAIN_API_URL="API_URL"
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
